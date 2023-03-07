@@ -13,11 +13,17 @@ body{
     background-image: url(../img/jumbo.png);
     background-size: cover;
 }
+.TAcen{text-align: center;}
+.VAtop{vertical-align: top;}
+
 .flex{display: flex;}
 .col{flex-direction: column;}
 .JCSpbt{justify-content: space-between;}
 .JCSpar{justify-content: space-around;}
 .JCcen{justify-content: center;}
+.AIcen{align-items: center;}
+.JCflexS{justify-content: flex-start;}
+.AIflexS{align-items: flex-start;}
 
 .azurediv > img{
     width: 100%;
@@ -149,3 +155,15 @@ nav{
     background-color: #ffb6c1;
     padding: 0.5rem;
 }
+
+select{
+    background: transparent;
+    border: none;
+    color: white;
+}
+
+.flagIT{
+    width: 2em;
+}
+
+.sel
