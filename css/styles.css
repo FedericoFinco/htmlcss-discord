@@ -14,9 +14,14 @@ body{
     background-size: cover;
 }
 .flex{display: flex;}
+.col{flex-direction: column;}
 .JCSpbt{justify-content: space-between;}
 .JCSpar{justify-content: space-around;}
+.JCcen{justify-content: center;}
 
+.azurediv > img{
+    width: 100%;
+}
 .flexColSpar{
     display: flex;
     flex-direction: column;
@@ -72,14 +77,12 @@ nav{
     background-color: #d3d3d3;
 }
 
-.pinkdiv{
-    background-color: #ffc0cb;
+.pinkdiv{;
     width: 40%;
     min-height: 490px;
 }
 
 .azurediv{
-    background-color: #1e90ff;
     width: 60%;
     min-height: 490px;
 }
