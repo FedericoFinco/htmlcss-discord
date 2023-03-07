@@ -10,8 +10,29 @@
     background-image: url(../img/jumbo.png);
     background-size: cover;
 }
+.MarT30{margin-top: 30px;}
+.MarR20{margin-right: 20px;}
+.MarT10{margin-top: 10px;}
+
+.bgU{background-color: #8ea1e1;}
+
+.TxU{color: #8ea1e1;}
+.TxW{color: white;}
+.TxB{color: black;}
+.BgW{background-color: white;}
+.BgG{background-color: #222;}
 .TAcen{text-align: center;}
 .VAtop{vertical-align: top;}
+
+
+.FS70{font-size: 70px;}
+.FS60{font-size: 60px;}
+.FS50{font-size: 50px;}
+.FS40{font-size: 40px;}
+.FS15{font-size: 15px;}
+.FS25{font-size: 25px;}
+
+.LH40{line-height: 40px;}
 
 .flex{display: flex;}
 .col{flex-direction: column;}
@@ -22,14 +43,15 @@
 .JCflexS{justify-content: flex-start;}
 .AIflexS{align-items: flex-start;}
 .rotate{transform: scaleY(-1);}
+
 .wave{
     width: 100%;
     opacity: 0.18;
     display: block;
 }
-.pinkdivfoot > i{ 
+.pinkdivfoot >div > i{ 
     height: 4em;
-    margin-left: 2em;
+    margin-right: 2em;
     color: white;
 }
 .azurediv > img{
@@ -47,7 +69,7 @@
     align-items: center;
 }
 
-#heading a{
+.flex, .JCcen > a{
     margin-right: 2em;
 }
 .boxed{
@@ -126,29 +148,26 @@ nav{
 
 .pinkdivfoot{
     width: 30%;
-    min-height: 590px;
+    min-height: 450px;
 }
 
 .azuredivfoot{
-    background-color: #20b2aa;
     width: 70%;
-    min-height: 590px;
+    min-height: 450px;
     justify-content: flex-start;
     align-items: stretch;
 }
 
 .column{
     width: 25%;
-    border: 2px dotted white;
 }
 
 .spacerFooter{
-    padding-top: 1em;
-    border-bottom: 1px solid white;
+    /* padding-top: 1em;
+    border-bottom: 1px solid white; */
 }
 
 #foot{
-    background-color: #6ed7b4;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -161,6 +180,7 @@ nav{
 }
 
 select{
+    font-size: 25px;
     background: transparent;
     border: none;
     color: white;
@@ -170,4 +190,30 @@ select{
     width: 2em;
 }
 
-.sel
+button{
+    padding: 10px;
+    border-radius: 100px;
+    border-style: hidden;
+}
+
+a{
+    text-decoration: none;
+}
+.b{
+    font-weight: 500;
+}
+
+.B{
+    font-weight: 800;
+}
+
+#stars{
+    background-image: url(../img/stars.svg);
+}
+
+footer{
+    background-color: #23272a;
+}
+hr{
+    color: white;
+}
