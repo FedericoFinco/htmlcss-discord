@@ -4,9 +4,6 @@
     box-sizing: border-box;
 }
 
-body{
-    background-color: #222;
-}
 
 .banner{
     padding-top: 1em;
@@ -24,7 +21,17 @@ body{
 .AIcen{align-items: center;}
 .JCflexS{justify-content: flex-start;}
 .AIflexS{align-items: flex-start;}
-
+.rotate{transform: scaleY(-1);}
+.wave{
+    width: 100%;
+    opacity: 0.18;
+    display: block;
+}
+.pinkdivfoot > i{ 
+    height: 4em;
+    margin-left: 2em;
+    color: white;
+}
 .azurediv > img{
     width: 100%;
 }
@@ -109,7 +116,6 @@ nav{
 }
 
 .greendiv{
-    background-color: #228b22;
     width: 100%;
     min-height: 900px;
 }
@@ -119,7 +125,6 @@ nav{
 }
 
 .pinkdivfoot{
-    background-color: #f08080;
     width: 30%;
     min-height: 590px;
 }
@@ -152,7 +157,6 @@ nav{
 }
 
 .pinkfoot{
-    background-color: #ffb6c1;
     padding: 0.5rem;
 }
 
